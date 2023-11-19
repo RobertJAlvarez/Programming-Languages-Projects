@@ -1,4 +1,4 @@
-package edu.colorado.csci3155.project1
+package project1
 
 sealed trait Expr
 case class Const(f: Double) extends  Expr

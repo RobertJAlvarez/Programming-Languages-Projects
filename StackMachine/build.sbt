@@ -14,11 +14,11 @@ libraryDependencies ++= List(
 ///
 
 val solnFilePaths = List(
-    "src/main/scala/edu/colorado/csci3155/project1/Main.scala",
-    "src/main/scala/edu/colorado/csci3155/project1/StackMachineCompiler.scala",
-    "src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala"
+    "src/main/scala/project1/Main.scala",
+    "src/main/scala/project1/StackMachineCompiler.scala",
+    "src/main/scala/project1/StackMachineEmulator.scala"
 )
-val testsPath = "src/test/scala/edu/colorado/csci3155/project1"
+val testsPath = "src/test/scala/project1"
 val extraPath = "extra_submission_files"
 val zipFilePath = "submission.zip"
 val confirmBeforeOverwrite = false

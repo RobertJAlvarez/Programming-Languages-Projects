@@ -1,4 +1,4 @@
-package edu.colorado.csci3155.project1
+package project1
 import org.scalatest.FunSuite
 
 
