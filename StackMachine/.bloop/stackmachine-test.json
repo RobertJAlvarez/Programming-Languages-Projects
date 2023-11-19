@@ -1,0 +1,229 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "stackmachine-test",
+        "directory": "/Users/robertalvarez/Library/CloudStorage/OneDrive-UniversityofTexasatElPaso/Fall_2023/CS_3360/project/StackMachine",
+        "workspaceDir": "/Users/robertalvarez/Library/CloudStorage/OneDrive-UniversityofTexasatElPaso/Fall_2023/CS_3360/project/StackMachine",
+        "sources": [
+            "/Users/robertalvarez/Library/CloudStorage/OneDrive-UniversityofTexasatElPaso/Fall_2023/CS_3360/project/StackMachine/src/test/scala",
+            "/Users/robertalvarez/Library/CloudStorage/OneDrive-UniversityofTexasatElPaso/Fall_2023/CS_3360/project/StackMachine/src/test/scala-2.12",
+            "/Users/robertalvarez/Library/CloudStorage/OneDrive-UniversityofTexasatElPaso/Fall_2023/CS_3360/project/StackMachine/src/test/scala-2",
+            "/Users/robertalvarez/Library/CloudStorage/OneDrive-UniversityofTexasatElPaso/Fall_2023/CS_3360/project/StackMachine/src/test/java",
+            "/Users/robertalvarez/Library/CloudStorage/OneDrive-UniversityofTexasatElPaso/Fall_2023/CS_3360/project/StackMachine/target/scala-2.12/src_managed/test"
+        ],
+        "dependencies": [
+            "stackmachine"
+        ],
+        "classpath": [
+            "/Users/robertalvarez/Library/CloudStorage/OneDrive-UniversityofTexasatElPaso/Fall_2023/CS_3360/project/StackMachine/.bloop/stackmachine/scala-2.12/classes",
+            "/Users/robertalvarez/.sbt/boot/scala-2.12.17/lib/scala-library.jar",
+            "/Users/robertalvarez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.jar",
+            "/Users/robertalvarez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.jar",
+            "/Users/robertalvarez/.sbt/boot/scala-2.12.17/lib/scala-reflect.jar",
+            "/Users/robertalvarez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar"
+        ],
+        "out": "/Users/robertalvarez/Library/CloudStorage/OneDrive-UniversityofTexasatElPaso/Fall_2023/CS_3360/project/StackMachine/.bloop/stackmachine",
+        "classesDir": "/Users/robertalvarez/Library/CloudStorage/OneDrive-UniversityofTexasatElPaso/Fall_2023/CS_3360/project/StackMachine/.bloop/stackmachine/scala-2.12/test-classes",
+        "resources": [
+            "/Users/robertalvarez/Library/CloudStorage/OneDrive-UniversityofTexasatElPaso/Fall_2023/CS_3360/project/StackMachine/src/test/resources",
+            "/Users/robertalvarez/Library/CloudStorage/OneDrive-UniversityofTexasatElPaso/Fall_2023/CS_3360/project/StackMachine/target/scala-2.12/resource_managed/test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.17",
+            "options": [
+                
+            ],
+            "jars": [
+                "/Users/robertalvarez/.sbt/boot/scala-2.12.17/lib/scala-library.jar",
+                "/Users/robertalvarez/.sbt/boot/scala-2.12.17/lib/scala-compiler.jar",
+                "/Users/robertalvarez/.sbt/boot/scala-2.12.17/lib/scala-reflect.jar",
+                "/Users/robertalvarez/.sbt/boot/scala-2.12.17/lib/scala-xml_2.12-2.1.0.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "zio.test.sbt.ZTestFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home",
+                "options": [
+                    "-Duser.dir=/Users/robertalvarez/Library/CloudStorage/OneDrive-UniversityofTexasatElPaso/Fall_2023/CS_3360/project/StackMachine"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.17",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/robertalvarez/.sbt/boot/scala-2.12.17/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/robertalvarez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.17/scala-library-2.12.17-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalactic",
+                    "name": "scalactic_2.12",
+                    "version": "3.0.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalactic_2.12",
+                            "path": "/Users/robertalvarez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.jar"
+                        },
+                        {
+                            "name": "scalactic_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/robertalvarez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.12.17",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/Users/robertalvarez/.sbt/boot/scala-2.12.17/lib/scala-reflect.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/Users/robertalvarez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.17/scala-reflect-2.12.17-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.17",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/robertalvarez/.sbt/boot/scala-2.12.17/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/robertalvarez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.17/scala-library-2.12.17-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest_2.12",
+                    "version": "3.0.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest_2.12",
+                            "path": "/Users/robertalvarez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.jar"
+                        },
+                        {
+                            "name": "scalatest_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/robertalvarez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-xml_2.12",
+                    "version": "1.0.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-xml_2.12",
+                            "path": "/Users/robertalvarez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar"
+                        },
+                        {
+                            "name": "scala-xml_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/robertalvarez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}
