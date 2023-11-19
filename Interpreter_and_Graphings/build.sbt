@@ -19,6 +19,7 @@ val extraPath = "extra_submission_files"
 val zipFilePath = "submission.zip"
 val confirmBeforeOverwrite = false
 
+
 lazy val checkAndZipSubmission = taskKey[Unit]("Zip answer source files into submission")
 checkAndZipSubmission := {
     val bd = baseDirectory.value
